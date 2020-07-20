@@ -2,13 +2,30 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
-/[Ll]ibrary/
-/[Tt]emp/
-/[Oo]bj/
-/[Bb]uild/
-/[Bb]uilds/
-/[Ll]ogs/
-/[Mm]emoryCaptures/
+/HoloArt/[Ll]ibrary/
+/HoloArt/[Tt]emp/
+/HoloArt/[Oo]bj/
+/HoloArt/[Bb]uild/
+/HoloArt/[Bb]uilds/
+/HoloArt/[Ll]ogs/
+/HoloArt/[Mm]emoryCaptures/
+/HoloArt/VS/
+
+#Exclude temporary files and dependencies
+/HoloArt/Assets/HoloToolkit/
+/HoloArt/Assets/HoloToolkit-Examples/
+/HoloArt/Assets/TestStuff/
+/HoloArt/Assets/TextMesh Pro/
+
+#Exclude the following meta files
+/HoloArt/Assets/HoloToolkit.meta
+/HoloArt/Assets/HoloToolkit-Examples
+/HoloArt/Assets/TestStuff.meta
+/HoloArt/Assets/TextMesh Pro.meta
+
+#Exclude WSA Certificate
+/HoloArt/Assets/WSATestCertificate.pfx.meta
+/HoloArt/Assets/WSATestCertificate.pfx
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
