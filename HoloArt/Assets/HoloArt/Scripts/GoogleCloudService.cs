@@ -5,7 +5,7 @@ using UnityEngine;
 
 public static class GoogleCloudService
 {
-    public const string APIKey = "AIzaSyALRcEI5Mm4SaStMJUvYGDQhsslsnvlB7s";
+    public const string APIKey = "insert Google Platform API here";
 
     public const string TranslationServiceEndPoint = "https://translation.googleapis.com";
     public const string TranslationRestResource = "/language/translate/v2";
